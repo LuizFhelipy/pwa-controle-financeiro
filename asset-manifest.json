@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/pwa-controle-financeiro/static/js/main.017cb106.js",
-    "static/js/787.5f742869.chunk.js": "/pwa-controle-financeiro/static/js/787.5f742869.chunk.js",
-    "service-worker.js": "/pwa-controle-financeiro/service-worker.js",
-    "index.html": "/pwa-controle-financeiro/index.html",
-    "main.017cb106.js.map": "/pwa-controle-financeiro/static/js/main.017cb106.js.map",
-    "787.5f742869.chunk.js.map": "/pwa-controle-financeiro/static/js/787.5f742869.chunk.js.map"
+    "main.js": "./static/js/main.ef85ebed.js",
+    "static/js/787.5f742869.chunk.js": "./static/js/787.5f742869.chunk.js",
+    "service-worker.js": "./service-worker.js",
+    "index.html": "./index.html",
+    "main.ef85ebed.js.map": "./static/js/main.ef85ebed.js.map",
+    "787.5f742869.chunk.js.map": "./static/js/787.5f742869.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.017cb106.js"
+    "static/js/main.ef85ebed.js"
   ]
 }
