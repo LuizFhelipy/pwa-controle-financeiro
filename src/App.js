@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Form from "./components/Form";
-import Header from "./components/Header";
 import Resume from "./components/Resume";
 import Global from "./styles/global";
 import Dexie from 'dexie'
-import { useLiveQuery } from "dexie-react-hooks";
 
 const db = new Dexie('db-finance');
 db.version(1).stores(
@@ -12,8 +10,6 @@ db.version(1).stores(
 )
 
 const App = () => {
-  //const transactionsList = useLiveQuery(() => db.items.toArray(), []);
-  //if (!transactionsList) return null
 
   const data = localStorage.getItem("transaction");
   const [transactionsList, setTransactionsList] = useState(
@@ -60,7 +56,6 @@ const App = () => {
 
   return (
     <>
-      {/*<Header />*/}
       <Resume income={income} expense={expense} total={total} />
       <Form handleAdd={handleAdd} transactionsList={transactionsList} setTransactionsList={setTransactionsList} database={db}/>
       <Global />
